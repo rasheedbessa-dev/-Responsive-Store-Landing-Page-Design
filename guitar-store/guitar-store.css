@@ -1,0 +1,88 @@
+/* genearal gonfiguration*/
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('vynils.jpg');
+}
+/* Hero section*/
+.hero {
+  background: url("guitar-navbar.jpg");
+  background-size: cover;
+  background-position: bottom;
+  color: rgb(255, 255, 255);
+  padding-bottom: 100px;
+}
+.navbar {
+  background-color: transparent;
+}
+.hero-text {
+  padding: 80px 15px;
+}
+.hero-text h1 {
+  font-size: 50px;
+}
+
+.hero-text p {
+  font-size: 30px;
+}
+/* Nav bar section*/
+.navbar-brand {
+  color: black;
+  font-weight: 500;
+  font-family: fantasy;
+  font-size: 40px;
+}
+.navbar-link {
+  color: black;
+  font-weight: 500;
+  font-size: large;
+}
+#produits h1{
+    color: rgb(247, 61, 9);
+}
+/* product section*/
+.card {
+  background-color: transparent;
+  border: none;
+  border-radius: 10px;
+  transition:
+    transform 0.3s eas,
+    box-shadow 0.3s ease;
+}
+.card-title{
+    color: rgb(247, 61, 9);
+    font-family: Magneto;
+    font-size: 25px;
+}
+.card p {
+  font-size: 15px;
+  color: white
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+.btn-primary{
+    background-color: white !important;
+    color: black;
+    font-family: Heavitas;
+}
+.btn-primary:hover{
+    color: rgb(247, 61, 9);
+}
+/*footer*/
+footer {
+  background-color: transparent;
+  font-family: Heavitas;
+  font-size: 20px;
+  color: rgb(247, 61, 9);;
+  text-align: center;
+  padding: 20px;
+}
+
+/*  RESPONSIVE */
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 30px;
+  }
+}
